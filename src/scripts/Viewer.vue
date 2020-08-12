@@ -248,7 +248,7 @@ export default {
 		thumbDimensions() {
 			let width = $(window).width();
 			switch (true) {
-			case (width <= 1024) : return 1024;
+			// case (width <= 1024) : return 1024;
 			case (width <= 1280) : return 1280;
 			case (width <= 1920) : return 1920;
 			case (width <= 2160) : return 2160;

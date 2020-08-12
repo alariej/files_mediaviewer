@@ -1,6 +1,5 @@
 <template>
 	<div>
-		<button class="viewer__control icon__download" @click="download()" v-translate>Download</button>
 		<button class="viewer__control icon__close" @click="closeViewer()" v-translate>Close</button>
 	</div>
 </template>
